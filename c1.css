@@ -307,7 +307,7 @@ footer{
     #navbar {
         flex-direction: column;
     }
-    
+
     #navbar ul{
         display: flex;
         flex-wrap: row wrap;
@@ -358,14 +358,14 @@ footer{
         flex-direction: column;
     }
     
+    #home{
+        height: 450px;
+    }
+    
     #navbar ul{
         display: flex;
         flex-wrap: row wrap;
         justify-content: space-around;
-    }
-    
-    #home{
-        height: 450px;
     }
 
     #navbar ul li a{
