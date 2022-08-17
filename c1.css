@@ -394,4 +394,9 @@ footer{
     #contact{
         z-index: -1;
     }
+    
+    .h-secondary{
+        font-size: 1.2rem;
+        padding: 12px;
+    }
 }
