@@ -292,7 +292,7 @@ footer{
     }
 }
 
-@media only screen and (max-width:450px) {
+@media only screen and (max-width:450px) and (min-width:300px) {
 
     .h-primary{
         font-size: 1.8rem;
@@ -334,5 +334,63 @@ footer{
         height: 120px;
         display: block;
         margin: auto;
+    }
+
+    #contact{
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width:300px){
+
+    .h-primary{
+        font-size: 1.8rem;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+    
+    #navbar ul{
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: space-around;
+    }
+    
+    #home{
+        height: 450px;
+    }
+
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 7px;
+        padding-bottom: 8px;
+    }
+
+    #home::before{
+        height: 550px;
+    }
+
+    #home::after{
+        height: 550px;
+    }
+    
+    #services{
+        flex-direction: column;
+    }
+    
+    #services .box{
+        height: 22rem;
+        width: 10rem;
+    }
+
+    #services .box img{
+        height: 120px;
+        display: block;
+        margin: auto;
+    }
+
+    #contact{
+        z-index: -1;
     }
 }
