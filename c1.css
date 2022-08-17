@@ -343,9 +343,6 @@ footer{
         margin: auto;
     }
 
-    #contact{
-        z-index: -1;
-    }
 }
 
 @media only screen and (max-width:300px){
@@ -396,10 +393,6 @@ footer{
         height: 100px;
         display: block;
         margin: auto;
-    }
-
-    #contact{
-        z-index: -1;
     }
 
     .h-secondary{
