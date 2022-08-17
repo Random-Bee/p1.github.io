@@ -280,8 +280,8 @@ footer{
     
     #navbar ul li a{
         font-size: 1rem;
-        padding: 0px 7px;
-        padding-bottom: 8px;
+        padding: 5px 8px;
+        margin-bottom: 7px;
     }
     
     #services{
@@ -370,8 +370,8 @@ footer{
 
     #navbar ul li a{
         font-size: 1rem;
-        padding: 0px 7px;
-        padding-bottom: 8px;
+        padding: 5px 8px;
+        margin-bottom: 7px;
     }
 
     #home::before{
