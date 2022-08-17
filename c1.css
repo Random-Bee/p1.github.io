@@ -380,12 +380,13 @@ footer{
     }
     
     #services .box{
-        height: 25rem;
-        width: 10rem;
+        margin: 10px 0px;
+        height: 400px;
+        width: 150px;
     }
 
     #services .box img{
-        height: 120px;
+        height: 100px;
         display: block;
         margin: auto;
     }
