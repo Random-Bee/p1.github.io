@@ -1,1 +1,1 @@
-Link - https://random-bee.github.io/smallFood/
+Link - https://random-bee.github.io/randomFood/
